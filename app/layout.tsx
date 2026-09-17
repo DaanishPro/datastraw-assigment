@@ -17,6 +17,31 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Support CRM | Customer Support Ticketing System",
   description: "Professional Customer Support Ticketing CRM - Manage, track, and resolve customer support tickets.",
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
+  openGraph: {
+    title: "Support CRM | Customer Support Ticketing System",
+    description: "Professional Customer Support Ticketing CRM - Manage, track, and resolve customer support tickets.",
+    images: [
+      {
+        url: "/icon.svg",
+        width: 48,
+        height: 48,
+        alt: "Support CRM LifeBuoy Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    title: "Support CRM | Customer Support Ticketing System",
+    description: "Professional Customer Support Ticketing CRM - Manage, track, and resolve customer support tickets.",
+    images: ["/icon.svg"],
+  },
 };
 
 export default function RootLayout({
